@@ -27,6 +27,8 @@
 
 * Link to project repository: https://github.com/eneriz-daniel/sensorialfusionQNNs
 
+* Link to YouTube Video(s): https://youtu.be/NJG7mib3UBc
+
 ## Archive description
 
 * The [Virtualization notebook](Virtualization.ipynb) contains all the steps to process the raw data taken from [Fonollosa et al. 'Reservoir Computing compensates slow response of chemosensor arrays exposed to fast varying gas concentrations in continuous monitoring'; Sensors and Actuators B, 2015](https://archive.ics.uci.edu/ml/datasets/gas+sensor+array+under+dynamic+gas+mixtures) and to train the model using PyTorch in two stages, quantizing the parameters in the second one.
@@ -73,4 +75,4 @@ Then you can load the [trained parameters](/usage-test/eth-ch4-params-quant.npz)
 
 ![PYNQ's predictions](/img/time-series-FPGA-12-3-6350-8350.png)
 
-Link to YouTube Video(s):
+Link to YouTube Video(s): https://youtu.be/NJG7mib3UBc
