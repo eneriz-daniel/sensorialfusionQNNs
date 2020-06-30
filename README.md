@@ -39,7 +39,7 @@
 
 * The [Usage notebook](Usage.ipynb) contains the custom driver to control the neural network from Python and how to use it. In this notebook are used to files, aviables in the [/usage-test](/usage-test) folder: the [parameters in .npz format](/usage-test/eth-ch4-params-quant.npz) and the [filtered data time series](/usage-test/ethylene_methane.txt).
 
-* Finally, there is the [Project report](Project-report.pdf), with the explanation and results of this project.
+* Finally, there is the [Project report](Project_report.pdf), with the explanation and results of this project.
 
 
 
