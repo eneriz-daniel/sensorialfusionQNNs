@@ -59,13 +59,13 @@ There you can try to simulate and synthetize on your own. The final exported des
 
 Once you have exported your IP, you have to create a Vivado project and create a block design. In the Vivado settings there is the IP repositories locations, there you can add the [neural network HLS exported IP](/hls/xilinx_com_hls_gas_nn_1_0.zip). The using the block autoconnection feature, you can connect the ZYNQ processing system and the gas_nn block like this:
 
-![Vivado IP integrator screenshot](/img/vivado.png)
+![Vivado IP integrator screenshot](/img/vivado.PNG)
 
 Then you are ready generate the [bitstream](/vivado/gas_nn.bit). 
 
 To use the customized overlay on PYNQ it is necessary to upload it to the overlay folder. For that you can use the Windows File Explorer, connecting to the PYNQ's file system. In the directory `\\pynq\xilinx\pynq\overlays\gas_nn` you must add the [bitstream](gas_nn.bit), the [.tcl](gas_nn.tcl) and the [.hwh](gas_nn.hwh) files
 
-![PYNQ's file system](/img/pynq-fs.png)
+![PYNQ's file system](/img/pynq-fs.PNG)
 
 Finally, the [Usage notebook](Usage.ipynb) shows you how to use the driver, the only thing you may need to customize yours is the HLS generated file with the port information and it is in your HLS project directory `.../[HLSproyect]/[solutionX]/impl/misc/drivers/[ip_block_name]/src/x[ip_block_name]_hw.h`
 
