@@ -17,7 +17,7 @@
 
 * Participant(s): Daniel Enériz Orta
 
-* Email: eneriz.daniel@gmail.com
+* Email: eneriz@unizar.es
 
 * Board used: PYNQ-Z2
 
